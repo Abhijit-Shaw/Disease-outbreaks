@@ -9,9 +9,9 @@ st.set_page_config(page_title="Prediction of Disease Outbreaks", layout="wide", 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load saved models with relative paths
-diabetes_model = pickle.load(open(f'{working_dir}/models/diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open(f'{working_dir}/models/heart_model.sav', 'rb'))
-parkinsons_model = pickle.load(open(f'{working_dir}/models/parkinsons_model.sav', 'rb'))
+diabetes_model = pickle.load(open(f'{working_dir}/diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open(f'{working_dir}/heart_model.sav', 'rb'))
+parkinsons_model = pickle.load(open(f'{working_dir}/parkinsons_model.sav', 'rb'))
 
 # Sidebar for navigation
 with st.sidebar:
