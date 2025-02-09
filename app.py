@@ -215,7 +215,7 @@ if selected == "Parkinsons Prediction":
 
     with col2:
         Jitter_percent = st.number_input('Jitter Percent', value=None, step=0.00001, format="%.5f")
-        Jitter_Abs = st.number_input('Jitter Abs', value=None, step=0.00001, format="%.5f")
+        Jitter_Abs = st.number_input('Jitter Abs', value=None, step=0.000001, format="%.6f")
         RAP = st.number_input('RAP', value=None, step=0.00001, format="%.5f")
 
     with col3:
